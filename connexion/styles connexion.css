@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.form h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-field input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-field small {
+    color: var(--error-color);
+    font-size: 12px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+small {
+    color: var(--error-color); /* Défini dans ton fichier CSS */
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles connexion.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>S'enregistrer</h1>
+            <div class="form-field">
+                <label for="username">Nom :</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="email">Email :</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="password">Mot de passe :</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="confirm-password">Confirmation du mot de passe :</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <input type="submit" value="S'inscrire" class="btn">
+            </div>
+        </form>
+    </div>
+    <script src="script signup.js"></script> <!-- Déplacement du script ici -->
+</body>
+</html>
